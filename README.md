@@ -1,4 +1,4 @@
-<h1 align="center">Brute Force Attack Detection using Splunk</h1>
+<h1 align="center">Brute Force Attack Detection & Analysis using Splunk</h1>
 
 <p align="center">
 SOC Investigation Case Study • Log Analysis • Threat Detection
@@ -17,8 +17,6 @@ This project presents a Security Operations Center (SOC) investigation of a brut
 - Analyze login patterns over time  
 - Correlate failed and successful login events  
 - Investigate post-login activity  
-
----
 
 ## 🛠️ Tech Stack
 | Category | Tools |
@@ -41,29 +39,26 @@ A brute-force SSH attack was simulated in a controlled lab environment using Kal
 - Analyzed login patterns over time  
 - Correlated events to detect compromise  
 
----
-
 ## 📊 Key Findings
 - High frequency of failed login attempts from a single IP  
 - Successful login after multiple failed attempts  
 - Indicators of possible privilege escalation  
 
----
+## 🔐 Security Insight
+This pattern of multiple failed login attempts followed by a successful login is a strong indicator of a brute-force attack. Detecting such behavior is critical in SOC environments to prevent unauthorized access.
+
+## 🧠 Conclusion
+The investigation confirms a brute-force attack scenario where unauthorized access was achieved after multiple login attempts. This project demonstrates practical SOC skills including log analysis, event correlation, and threat detection using Splunk.
+
+Such attack patterns are commonly observed in real-world intrusion attempts and highlight the importance of continuous monitoring in SOC environments.
+
+## 📄 Report
+[View Detailed Investigation Report](Brute_Force_Detection.pdf) 
 
 ## 📸 Sample Output
 
 ![Splunk Dashboard](screenshots/dashboard.png)
 
-Example:
-
----
-
 ## 📁 Project Files
 - Brute_Force_Detection.pdf → Detailed investigation report  
-- queries.txt → Splunk queries used  
-- screenshots/ → Visualization of logs and dashboards  
-
----
-
-## 🧠 Conclusion
-The investigation confirms a brute-force attack scenario where unauthorized access was achieved after multiple login attempts. This project demonstrates practical SOC skills including log analysis, event correlation, and threat detection using Splunk.
+- screenshots/ → Visualization of logs and dashboards
