@@ -35,22 +35,11 @@ A brute-force SSH attack was simulated in a controlled lab environment using Kal
 
 ---
 
-## 🧪 Investigation Workflow
-
-### 1. Detection
-Suspicious activity was identified through repeated failed authentication attempts.
-
-### 2. Log Analysis
-Authentication logs were analyzed to identify abnormal login behavior.
-
-### 3. Pattern Identification
-Repeated login failures from a single source indicated brute-force activity.
-
-### 4. Event Correlation
-Failed login attempts were correlated with a successful login event.
-
-### 5. Post-Compromise Check
-Sudo logs were analyzed to identify potential privilege escalation.
+## 🔍 Analysis Approach
+- Detected repeated failed login attempts  
+- Identified attacker IP from logs  
+- Analyzed login activity patterns  
+- Correlated events to detect compromise  
 
 ---
 
