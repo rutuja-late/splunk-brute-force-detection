@@ -52,7 +52,7 @@ A brute-force SSH attack was simulated in a controlled lab environment using Kal
 
 ## 📸 Sample Output
 
-> *(Add your Splunk screenshot here for better visualization)*
+![Splunk Dashboard](screenshots/dashboard.png)
 
 Example:
 
