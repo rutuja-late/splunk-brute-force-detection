@@ -36,9 +36,9 @@ A brute-force SSH attack was simulated in a controlled lab environment using Kal
 ---
 
 ## 🔍 Analysis Approach
-- Detected repeated failed login attempts  
-- Identified attacker IP from logs  
-- Analyzed login activity patterns  
+- Detected repeated failed logins  
+- Identified attacker source IP  
+- Analyzed login patterns over time  
 - Correlated events to detect compromise  
 
 ---
